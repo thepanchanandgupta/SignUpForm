@@ -1,0 +1,101 @@
+body {
+    background-color: black;
+    margin: 0px 200px;
+    color: white;
+    font-family: sans-serif;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+h1 {
+    font-weight: normal;
+    font-size: 50px;
+    margin: 10px 200px;
+    margin-top: 100px;
+    color: white;
+}
+
+#name {
+    border-color: black;
+    text-decoration: underline;
+}
+
+form {
+    margin: 10px 200px;     
+}
+
+.container {
+    background-color: black;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+label,
+input {
+    display: block;
+    margin-bottom: 5px;
+    color: white;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="date"],
+input[type="radio"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-bottom: 15px;
+    border-top-style: none;
+    border-right-style: none;
+    border-left-style: none;
+    border-bottom-color: black;
+    border-radius: 0;
+    border-color: white;
+    background-color: black;
+    color: white;
+}
+
+input[type="text"]:focus-visible,
+input[type="email"]:focus-visible,
+input[type="password"]:focus-visible,
+input[type="date"]:focus-visible,
+input[type="radio"]:focus-visible,
+input[type="checkbox"]:focus-visible {
+    outline: none;
+}
+
+.radio-button {
+    margin-top: 10px;
+    display: inline-flex;
+    color: white;
+    background-color: black;
+}
+
+input[type="radio"], input[type="checkbox"] { 
+    accent-color: white; 
+}
+
+input[type="radio"]:not(:checked)::before,
+input[type="checked"]:not(:checked)::before {
+    background-color: black !important;
+}
+
+button {
+    display: block;
+    background-color: white;
+    color: black;
+    margin: 30px 0px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+::placeholder {
+    color: white;
+}
